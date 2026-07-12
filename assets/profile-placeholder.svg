@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">A clean abstract profile placeholder for a personal academic homepage.</desc>
+  <rect width="720" height="720" fill="#f1f5ef"/>
+  <rect x="44" y="44" width="632" height="632" rx="34" fill="#ffffff" stroke="#dce4dc" stroke-width="4"/>
+  <path d="M104 552c72-92 158-138 258-138 102 0 187 46 254 138v68H104v-68z" fill="#137a63" opacity=".12"/>
+  <circle cx="360" cy="278" r="118" fill="#137a63" opacity=".16"/>
+  <circle cx="360" cy="258" r="86" fill="#ffffff" stroke="#137a63" stroke-width="12"/>
+  <path d="M214 564c34-82 84-122 146-122s112 40 146 122" fill="none" stroke="#137a63" stroke-width="16" stroke-linecap="round"/>
+  <path d="M136 150h160M136 186h104" stroke="#2f5f9f" stroke-width="12" stroke-linecap="round" opacity=".55"/>
+  <path d="M492 150h92M452 186h132" stroke="#9b661b" stroke-width="12" stroke-linecap="round" opacity=".55"/>
+</svg>

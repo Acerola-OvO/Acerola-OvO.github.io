@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Cheng Xu is a master's student in Electrical Engineering and Information Systems at The University of Tokyo."
+    />
+    <title>Cheng Xu | Personal Homepage</title>
+    <link rel="icon" href="assets/profile-placeholder.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <span class="brand-mark" aria-hidden="true">CX</span>
+        <span class="brand-text" data-profile="shortName">Cheng Xu</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#awards">Honors</a>
+        <a href="#languages">Languages</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="profile-panel">
+          <img
+            class="profile-photo"
+            src="assets/profile-cheng-xu.jpg"
+            alt="Portrait of Cheng Xu"
+            data-profile-image
+          />
+          <div class="profile-meta">
+            <h1 data-profile="name">Cheng Xu</h1>
+            <p class="role" data-profile="role">Master's Student</p>
+            <p class="affiliation" data-profile="affiliation">The University of Tokyo</p>
+            <div class="profile-links" data-profile-links></div>
+          </div>
+        </div>
+        <div class="hero-copy about-hero" id="about">
+          <h2>About Me</h2>
+          <p data-profile="about"></p>
+          <ul class="fact-list" data-facts></ul>
+        </div>
+      </section>
+
+      <section class="content-band muted" id="education">
+        <div class="section-shell two-column">
+          <div class="section-heading">
+            <span class="section-indicator" aria-hidden="true"></span>
+            <h2>Education</h2>
+          </div>
+          <div class="timeline" data-education></div>
+        </div>
+      </section>
+
+      <section class="content-band" id="experience">
+        <div class="section-shell two-column">
+          <div class="section-heading">
+            <span class="section-indicator" aria-hidden="true"></span>
+            <h2>Experience</h2>
+          </div>
+          <div class="timeline" data-experience></div>
+        </div>
+      </section>
+
+      <section class="content-band muted" id="projects">
+        <div class="section-shell two-column">
+          <div class="section-heading">
+            <span class="section-indicator" aria-hidden="true"></span>
+            <h2>Selected Projects</h2>
+          </div>
+          <div class="item-list" data-projects></div>
+        </div>
+      </section>
+
+      <section class="content-band" id="skills">
+        <div class="section-shell two-column">
+          <div class="section-heading">
+            <span class="section-indicator" aria-hidden="true"></span>
+            <h2>Skills</h2>
+          </div>
+          <div class="skill-grid" data-skills></div>
+        </div>
+      </section>
+
+      <section class="content-band muted" id="awards">
+        <div class="section-shell two-column">
+          <div class="section-heading">
+            <span class="section-indicator" aria-hidden="true"></span>
+            <h2>Honors&amp;<br />Awards</h2>
+          </div>
+          <div class="award-list" data-awards></div>
+        </div>
+      </section>
+
+      <section class="content-band" id="languages">
+        <div class="section-shell two-column">
+          <div class="section-heading">
+            <span class="section-indicator" aria-hidden="true"></span>
+            <h2>Languages</h2>
+          </div>
+          <div class="skill-grid language-grid" data-languages></div>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Contact</h2>
+          <p data-profile="contactNote"></p>
+        </div>
+        <div class="contact-links" data-contact-links></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-profile="copyright">© Cheng Xu</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

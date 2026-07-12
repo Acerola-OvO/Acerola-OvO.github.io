@@ -28,10 +28,3 @@ The website presents my education, engineering experience, selected projects, te
 - JavaScript
 - GitHub Pages
 
-## Local Preview
-
-Open `index.html` directly in a web browser.
-
-## Deployment
-
-The website is automatically published through GitHub Pages from the `main` branch.

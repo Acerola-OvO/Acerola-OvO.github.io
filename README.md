@@ -1,31 +1,37 @@
 # Cheng Xu Personal Homepage
 
-A static personal homepage for GitHub Pages.
+🌐 **Live Website:** [https://acerola-ovo.github.io/](https://acerola-ovo.github.io/)
 
-The site presents Cheng Xu's education, selected projects, engineering experience, technical skills, honors, and contact information. The standalone Research Interests section has been removed so that the homepage stays factual and portfolio-focused.
+This repository contains the source code for my personal academic homepage, hosted with GitHub Pages.
 
-## Structure
+## About
+
+I am a master's student in Electrical Engineering and Information Systems at The University of Tokyo.
+
+The website presents my education, engineering experience, selected projects, technical skills, honors, languages, and contact information.
+
+## Website Sections
 
 - About
 - Education
-- Selected Projects
 - Experience
-- Skills & Languages
+- Selected Projects
+- Skills
 - Honors & Awards
+- Languages
 - Contact
 
-## Editing Content
+## Built With
 
-Most personal content is stored in the `siteData` object near the top of `script.js`.
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
 
-The profile image is:
+## Local Preview
 
-`assets/profile-cheng-xu.jpg`
+Open `index.html` directly in a web browser.
 
-The downloadable CV is:
+## Deployment
 
-`assets/Cheng-Xu-CV.pdf`
-
-## GitHub Pages
-
-Publish from the repository root. The entry file is `index.html`, and `.nojekyll` is included for static hosting.
+The website is automatically published through GitHub Pages from the `main` branch.
